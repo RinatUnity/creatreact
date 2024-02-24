@@ -3,10 +3,8 @@ body {
   font-family: sans-serif;
   background-color: blueviolet;
 }
-#root{
-  
-}
-.content{
+
+/* .content{
   display: flex;
   flex-wrap: wrap;
 }
@@ -21,6 +19,50 @@ body {
   font-weight: 700;
   display: flex;
   gap: 10px;
+
+}  */
+
+
+.karta{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  
+}
+
+.kart_block{
+  margin: 30px;
+ border-radius: 30px;
+ background-color: darkkhaki;
+ padding: 10px;
+ width:min-content;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template:
+      "b b a" 80px
+      "b b c" auto
+      ;
+ gap: 10px;
+ align-items: center;
+ justify-content:flex-start;
+ 
+}
+.caption{
+  text-align: center;
+  margin: auto;
+  grid-area: a;
+}
+.block_text{
+  
+  width: 150px;
+  grid-area: c;
+  
+}
+.block_img{
+  height: 120px;
+  grid-area: b;
+  border-radius: 10px;
+
 }
 
 

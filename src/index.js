@@ -1,6 +1,5 @@
 import React from "react";
 import  {createRoot}  from "react-dom/client";
-
 import  Counter,{getNumb} from "./utils/function.js"
 import  "./index.css"
 import "font-awesome/css/font-awesome.min.css"
