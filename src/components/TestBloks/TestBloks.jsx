@@ -15,4 +15,5 @@ const TestB = ({nam, tex, pic})=> {
       </div>)}
      </div>    
 } 
+
 export default TestB;
