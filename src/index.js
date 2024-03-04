@@ -7,6 +7,5 @@ import App from "./App"
 
 const b = new Counter();
 b.chang(getNumb);
-
 const tag = createRoot(document.getElementById("root"));
 tag.render(<App/>)

@@ -14,15 +14,15 @@ const About = () =>{
        backgroundColor:"orange",
        borderRadius:"10px",
        width:"max-content"
-       
-
   }
-  
+  // const r = words.filter((item,index)=>item.includes(name));
+  // r.sort((a,name) => a.split("")[0] > name ? -1 : 1);
     
+    // console.log(r);
     return <div>
       <Lout name={name}/>
       <div style={st}>Совпадения по первой букве</div>   
-      {words.filter((item,index)=>item[0].includes(name)).map((i,index)=><div key={index} style={st}>{i}</div>)}
+      {words.filter((item,index)=>item.includes(name)).sort((a,name)=>a.split("")[0] > name ? -1 : 1).map((i,index)=><div key={index} style={st}>{i}</div>)}
     </div>   
  }
  export default About;

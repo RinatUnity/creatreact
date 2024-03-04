@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./modalStyle.css";
 
 const ModalBlock = ({setOpenModal})=>{
-
     const [name, setName] = useState("");
     const [age, setAge] = useState("14");
 
